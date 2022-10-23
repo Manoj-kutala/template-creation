@@ -1,0 +1,28 @@
+[# th:if = "${originator_ID != null}"]
+private String originator_ID;
+public void set[(${originator_ID})](String originator_ID){
+	this.[(${originator_ID})] = originator_ID;
+}
+public String getfname(){
+    return this.[(${fname})];
+}
+[/]
+
+
+[# th:if = "${Client_customer_ID != null}"]
+private String Client_customer_ID;
+public void set[(${Client_customer_ID})](String Client_customer_ID){
+	this.[(${Client_customer_ID})] = Client_customer_ID;
+}
+public String getClient_customer_ID(){
+	return this.[(${Client_customer_ID})];
+}
+
+public void setClient_customer_ID(String Client_customer_ID){
+    this.
+}
+
+public String get[(${Client_customer_ID})](){
+    return this.
+}
+[/]
